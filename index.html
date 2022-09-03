@@ -13,8 +13,8 @@
 <script>
   
   function showDropDown() {
-    var dis = document.getElementById('dropdown');
-    if(dis.style.display == 'none'){
+    var dropdown = document.getElementById('dropdown'); //assigned the html to the variable via dom
+    if(dropdown.style.display == 'none'){  //if the display is none in the style then set to block else return back to default state when clicked.
    document.getElementById('dropdown').style.display = 'block';
   }
   else {
@@ -41,7 +41,7 @@
 
     .dropdown-menu{
         background-color:khaki;
-        display: none;
+        display: none; /*set none by default*/
         width: 150px;
         height:150px;
         margin:0px;
