@@ -13,10 +13,14 @@
 <script>
   
   function showDropDown() {
-    var btn = document.getElementById('btn');
-  var dropdown = document.getElementById('dropdown');
-    dropdown.style.display = "block";
+    var dis = document.getElementById('dropdown');
+    if(dis.style.display == 'none'){
+   document.getElementById('dropdown').style.display = 'block';
   }
+  else {
+    document.getElementById('dropdown').style.display = 'none';
+  }
+}
     
 </script>
 <style>
