@@ -1,4 +1,6 @@
 # vpn-landing_page
-#### This is a landing page with various languages: English, Francais, Portuegese, Spanish with English set as index.
-#### Please this website is not tied to any advertisement or marketing, it is just for a side-project. Also once the link is clicked, it directs you to a direct download.
+#### This is a landing page with various languages: English, Francais, Portuegese, Spanish with the English page set as index.
+#### Also once the link is clicked, it directs you to a direct download so I am using nord vpn for the test.
+#### Please  Note: this website is not tied to any advertisement or marketing, it is just for a side-project. 
+
 ##### Thanks, World. 
