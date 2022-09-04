@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: poppins;
+}
+.site-header{
+    width:100%;
+    min-height: 100vh;
+    background-image: url(vpn.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+}
+
+.fa-globe{
+    color: black;
+    margin: 0px 10px 0;
+}
+#btn{
+    display: inline-block;
+    cursor: pointer;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    color: black;
+    margin: 10px 0 0;
+    font-size: 15px;
+    padding:14px 16px;
+}
+.fa-caret-down{
+    margin: 0px 0px 0px 10px;
+}
+
+.dropdown-menu{
+    background-color:white;
+    display: none; 
+    width: 90px;
+    min-height:120px;
+    text-align: left;
+    right: 80px;
+    box-shadow: 1px solid whitesmoke;
+    position: absolute;
+    margin:0px;
+    padding: 5px 0px 0px 0px;
+}
+.dropdown-menu ul li{
+    list-style-type: none;
+    padding: 7px;
+    
+}
+.dropdown-menu li a{
+    color:black;
+
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.center{
+    position: absolute;
+    top:45%;
+    left:50%;
+    width: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding:10px;
+
+}
+h1, h2, h6 {
+    font-family: poppins;
+}
+.center h1{
+    font-family:poppins;
+font-size: 62px;
+}
+.center h2{
+    font-family: poppins;
+    margin: 1em  0 1em;
+}
+.center a{
+    padding: 17px 34px;
+    background-color: seagreen;
+    color:white;
+    border:1px solid seagreen;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: poppins;
+    margin-bottom: 1.5em;
+
+}
+.center p{
+    margin-top: 1em;
+    font-family: poppins;
+    font-size: 14px;
+}
+.bottom{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.bottom button{
+    padding: 12px 15px;
+    background-color: seagreen;
+    border:1px solid seagreen;
+    color:white;
+}
+
+#logo img{
+width:80px;
+
+height:70px;
+}

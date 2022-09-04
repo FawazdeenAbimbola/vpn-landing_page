@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylehsheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+  
+  function showDropDown() {
+    var dropdown = document.getElementById('dropdown'); //assigned the html to the variable via dom
+    if(dropdown.style.display == 'none'){  //if the display is none in the style then set to block else return back to default state when clicked.
+   document.getElementById('dropdown').style.display = 'block';
+  }
+  else {
+    document.getElementById('dropdown').style.display = 'none';
+  }
+}
+    
+</script>
+<style>
+    
+    #btn{
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        border: 1px solid crimson;
+        margin: 10px 0;
+        font-size: 16px;
+        padding:14px 16px;
+        background-color: crimson;
+    }
+    .fa-caret-down{
+        margin: 0px 0px 0px 10px;
+    }
+
+    .dropdown-menu{
+        background-color:khaki;
+        display: none; /*set none by default*/
+        width: 150px;
+        height:150px;
+        margin:0px;
+        padding: 5px 10px;
+    }
+    .dropdown-menu ul li{
+        list-style-type: none;
+        padding: 7px;
+        
+    }
+    .dropdown-menu li a{
+        color:black;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: helvetica;
+    
+    }
+</style>
+<body>
+    <button onclick="showDropDown()"  id="btn">Francais<i class="fa fa-caret-down" aria-hidden="true"></i></button>
+    <div class="dropdown-menu" id="dropdown">
+        <ul>
+            <li><a href="">English</a></li>
+            <li><a href="">Portuegese</a></li>
+            <li><a href="">Spanish</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
