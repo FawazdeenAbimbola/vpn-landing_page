@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link rel="stylehsheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -17,6 +18,7 @@
     if(dropdown.style.display == 'none'){  //if the display is none in the style then set to block else return back to default state when clicked.
    document.getElementById('dropdown').style.display = 'block';
   }
+
   else {
     document.getElementById('dropdown').style.display = 'none';
   }
@@ -24,54 +26,40 @@
     
 </script>
 <style>
-    
-    #btn{
-        display: inline-block;
-        cursor: pointer;
-        text-decoration: none;
-        color: black;
-        border: 1px solid crimson;
-        margin: 10px 0;
-        font-size: 16px;
-        padding:14px 16px;
-        background-color: crimson;
-    }
-    .fa-caret-down{
-        margin: 0px 0px 0px 10px;
-    }
 
-    .dropdown-menu{
-        background-color:khaki;
-        cursor: pointer;
-        display: none; /*set none by default*/
-        width: 150px;
-        height:150px;
-        margin:0px;
-        padding: 5px 10px;
-    }
-    .dropdown-menu ul li{
-        list-style-type: none;
-        padding: 7px;
-        
-    }
-    .dropdown-menu li a{
-        color:black;
-        cursor: pointer;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: helvetica;
+
+
+    </style>
+
+    <body>
+        <header class="site-header">
+            <nav>
+                <a href="" id="logo"><img src="supple.svg" alt=""></a>
+                <div class="nav-links">
+                    <button onclick="showDropDown()"  id="btn"> <a href=""><i class="fa fa-globe"></i></a> Spanish    <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                    <div class="dropdown-menu" id="dropdown">
+                        <ul>
+                            <li><a href="francais.html">English</a></li>
+                            <li><a href="portuegese.html">Francais</a></li>
+                            <li><a href="spanish.html">Portuegese</a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </nav>
+            <div class="center">
+                <h1>La VPN que simplemente funciona</h1>
+                <h2>Vaya más allá con el #1 líder de confianza en vpn</h2>
+                <a href="">Descargar SuppleVPN <span id='rightarr'>&RightArrow;</span></a>
+                
+            
+                
+            </div>
+            <div class="bottom">
+                <button>¿Necesitas ayuda? ¡Habla con nosotros!</button></div>
+          
+        </header>
+     
     
-    }
-</style>
-<body>
-    <button onclick="showDropDown()"  id="btn">Spanish<i class="fa fa-caret-down" aria-hidden="true"></i></button>
-    <div class="dropdown-menu" id="dropdown">
-        <ul>
-            <li><a href="">English</a></li>
-            <li><a href="">Francais</a></li>
-            <li><a href="">Portuegese</a></li>
-        </ul>
-    </div>
-    
+
 </body>
 </html>
