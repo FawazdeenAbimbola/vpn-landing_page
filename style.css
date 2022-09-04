@@ -47,8 +47,9 @@ nav{
 .dropdown-menu{
     background-color:white;
     display: none; 
-    width: 100px;
+    width: 120px;
     min-height:120px;
+    z-index: 2;
     text-align: left;
     right: 80px;
     box-shadow: 1px solid whitesmoke;
@@ -58,12 +59,10 @@ nav{
 }
 .dropdown-menu ul li{
     list-style-type: none;
-    padding: 7px;
-    
+    padding: 7px;    
 }
 .dropdown-menu li a{
     color:black;
-
     cursor: pointer;
     text-align: left;
     text-decoration: none;
@@ -79,11 +78,12 @@ nav{
     text-align: center;
     transform: translate(-50%, -50%);
     padding:10px;
-
 }
+
 h1, h2, h6 {
     font-family: poppins;
 }
+
 .center h1{
     font-family:poppins;
 font-size: 62px;
@@ -102,8 +102,8 @@ font-size: 62px;
     font-size: 13px;
     font-family: poppins;
     margin-bottom: 1.5em;
-
 }
+
 .center p{
     margin-top: 1em;
     font-family: poppins;
@@ -124,4 +124,18 @@ font-size: 62px;
 #logo img{
 width:80px;
 height:70px;
+}
+/*******Responsive*****/
+@media (max-width:700px) {
+    .center h1{
+        font-family:poppins;
+    font-size: 42px;
+    }
+    .center h2{
+        font-family: poppins;
+        margin: 1em  0 1em;
+    }   
+    .dropdown-menu {
+        right: 30px;
+    }
 }
