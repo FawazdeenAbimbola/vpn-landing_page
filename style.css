@@ -47,7 +47,7 @@ nav{
 .dropdown-menu{
     background-color:white;
     display: none; 
-    width: 90px;
+    width: 100px;
     min-height:120px;
     text-align: left;
     right: 80px;
@@ -123,6 +123,5 @@ font-size: 62px;
 
 #logo img{
 width:80px;
-
 height:70px;
 }
