@@ -114,8 +114,9 @@ font-size: 62px;
     bottom:0;
     right:0;
 }
-.bottom a{
+.bottom button{
     padding: 6px 6px;
+    cursor: pointer;
     background-color: seagreen;
     border:1px solid seagreen;
     color:white;
