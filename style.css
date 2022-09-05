@@ -47,7 +47,7 @@ nav{
 .dropdown-menu{
     background-color:white;
     display: none; /** set none as default**/
-    width: 120px;
+    width: 150px;
     min-height:120px;
     z-index: 2; /** places it ontop any element**/
     text-align: left;
