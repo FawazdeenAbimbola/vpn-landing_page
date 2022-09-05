@@ -114,11 +114,13 @@ font-size: 62px;
     bottom:0;
     right:0;
 }
-.bottom button{
-    padding: 12px 15px;
+.bottom a{
+    padding: 6px 6px;
     background-color: seagreen;
     border:1px solid seagreen;
     color:white;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 #logo img{
